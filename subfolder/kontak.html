@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Kontak Sekolah Koding</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+
+    <!-- menu website -->
+    <div>
+      <a href="../index.html">Home</a>
+      <a href="../member.html">Member</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <!-- Bagaian awal, isinya text heading -->
+    <div>
+      <h1>  Sekolah Koding </h1>
+      <h2> &nbsp;Tutorial Online Untuk Belajar <span> Membuat Website</span> </h2>
+    </div>
+
+
+    <!--membuat form -->
+    <form>
+      <fieldset>
+        <label for="nama_user">Nama</label>
+        <input type="text" placeholder="Nama User" value="Nama Anda" id="nama_user">
+        <br>
+        <label for="pesan_user">Pesan</label>
+        <textarea cols="100" rows="7" id="pesan_user"> Pesan Saya Adalah....</textarea>
+        <br>
+        </fieldset>
+        <fieldset>
+        <label>Hobi </label> <br>
+        <input type="checkbox" name="hobi_user" value="0">Menggambar
+        <input type="checkbox" name="hobi_user" value="1" checked>Menulis
+        <input type="checkbox" name="hobi_user" value="2">Menyanyi
+        <br>
+        <label>Jenis Kelamin </label> <br>
+        <input type="radio" name="gender" value="0" checked>Laki-laki
+        <input type="radio" name="gender" value="1">Perempuan
+        <br>
+        <label>Pelajaran</label>
+        <select>
+        <optgroup label="Frontend">
+          <option value="html">HTML</option>
+          <option value="css">css</option>
+        </optgroup>
+
+        <optgroup label="Backend">
+          <option value="js">javascript</option>
+          <option value="db">database</option>
+        </optgroup>
+        </select>
+      </fieldset>
+
+      <br>
+      <input type="submit" value="Kirim Data">
+      <br>
+  </form>
+
+
+    <Table border="1">
+      <caption>Daftar Murid Sekolahkoding </caption>
+      <tr>
+        <th>Nama Murid</th>
+        <th>Kota Asal</th>
+      </tr>
+      <tr>
+        <td>Rois</td>
+        <td>Tangsel</td>
+      </tr>
+      <tr>
+        <td>Hendi</td>
+        <td>Pulo</td>
+      </tr>
+    </table>
+
+    <!-- List pada html -->
+    <ul>
+      <li>Rois</li>
+      <li>Hendi</li>
+    </ul>
+
+    <ol>
+      <li>Rois</li>
+      <li>Hendi</li>
+    </ol>
+
+    <dl>
+      <dt>Rois</dt>
+      <dd>User Pertama Sekolah Koding</dd>
+
+      <dt>Hendi</dt>
+      <dd>User Kedua Sekolah KodinKalau datanya diambil dari database, kita harus menggunakan PHP.
+
+        Untuk tutorial mengenai cara menampilkan data dari database MySQL menggunakan PHP, bisa dipelajari pada tutorial belajar PHP-MySQL.g</dd>
+    </dl>
+
+
+    <p>&copy;Sekolahkoding</p>
+
+  </body>
+</html>

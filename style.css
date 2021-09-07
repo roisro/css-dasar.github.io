@@ -1,0 +1,98 @@
+#menu_wrap {
+  /*margin : top right bottom left*/
+  margin: 10px 0 50px 0px;
+
+}
+
+
+
+.menu {
+  display: inline-block;
+  /*height: 50px;
+  width: 100px;*/
+  text-decoration: none;
+  border: 3px solid black;
+  padding: 10px 5px;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  /* text-decoration: underline; */
+  display: inline;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  display: inline;
+  position: fixed;
+  margin-top: 10px;
+}
+
+body {
+
+
+  /*background-color: #dfdfdf ;
+  background-image: url("gambar/koding.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position:left;
+  */
+  background: #dfdfdf url("gambar/koding.png") no-repeat right fixed;
+}
+
+#text_pendek {
+  font-size: 24px;
+  font-family: fantasy;
+  font-weight: bold;
+  background: yellow;
+  width: 50%;
+  height: 200px;
+  max-width: 30%;
+  max-height: 100px;
+  display: none;
+}
+
+
+#text_panjang {
+  text-align: justify;
+  text-indent: 30px;
+  letter-spacing: normal;
+  line-height: 20px;
+  word-spacing: 5px;
+}
+
+/*Kondisi Biasa*/
+.menu:link {
+  background: black;
+  color: white;
+}
+
+/*kondisi setelah dikunjungi*/
+.menu:visited {
+  background: white;
+
+}
+
+/*kondisi hover- mouse berada di atasnya*/
+.menu:hover {
+  background: green;
+}
+
+/*kondisi sedang aktif */
+.menu:active {
+  background: white;
+}
+
+/* Mengatur Posisi di css */
+/* 1. static | 2. Relative | 3. Absolute=>
+elemen dianggap hilang, sehingga elemen akan menempATI CLASS ATAU ID terkait | 4. fixed */
+
+#menu_member {
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
