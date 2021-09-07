@@ -20,3 +20,15 @@ p {
     text-align:center;
     color: blueviolet;
 }
+
+h1:hover{
+    color:black;
+}
+
+h1:hover + h2 {
+    color:black;
+}
+
+input:focus, textarea:focus{
+    background: yellow;
+}
