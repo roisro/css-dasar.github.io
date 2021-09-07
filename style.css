@@ -87,7 +87,7 @@ body {
   background: white;
 }
 
-
+/* efek float digunakan untuk megisi elemen yg kosong */
 table {
   float: left;
   margin-right: 20px;
@@ -103,6 +103,17 @@ table {
   clear:both;
 }
 
+ul, ol, dl {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 33.33%;
+}
+
+#copyright {
+  clear: both;
+  text-align: center;
+}
 
 /* Mengatur Posisi di css */
 /* 1. static | 2. Relative | 3. Absolute=>
