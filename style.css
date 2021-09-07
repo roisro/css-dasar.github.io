@@ -28,7 +28,7 @@ h2 {
   font-size: 25px;
   text-transform: uppercase;
   display: inline;
-  position: fixed;
+  /* position: fixed; */
   margin-top: 8px;
 }
 
@@ -87,6 +87,23 @@ body {
   background: white;
 }
 
+
+table {
+  float: left;
+  margin-right: 20px;
+}
+
+#ul_1 {
+  float: left;
+  margin-right: 20px;
+}
+
+/* clear untuk menghilangkan efek float */
+#div_baru {
+  clear:both;
+}
+
+
 /* Mengatur Posisi di css */
 /* 1. static | 2. Relative | 3. Absolute=>
 elemen dianggap hilang, sehingga elemen akan menempATI CLASS ATAU ID terkait | 4. fixed */
@@ -96,7 +113,7 @@ elemen dianggap hilang, sehingga elemen akan menempATI CLASS ATAU ID terkait | 4
   top: 50px;
   left: 20px;
 } */
-
+/* 
 #id_h1_member {
   background: rgb(49, 3, 252);
   position: absolute;
@@ -109,4 +126,4 @@ elemen dianggap hilang, sehingga elemen akan menempATI CLASS ATAU ID terkait | 4
   position: fixed;
   top: 100px;
   left:20px;
-}
+} */
