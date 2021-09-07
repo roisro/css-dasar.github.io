@@ -3,6 +3,7 @@
   <head>
     <title> Kontak Sekolah Koding</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="stylekontak.css">
   </head>
 
   <body>
@@ -14,33 +15,39 @@
       <a href="kontak.html">Kontak</a>
     </div>
 
+    <div>
+    <span><a href="#">Syarat</a></span>
+    <br/>
+    </div>
+
     <!-- Bagaian awal, isinya text heading -->
     <div>
-      <h1>  Sekolah Koding </h1>
-      <h2> &nbsp;Tutorial Online Untuk Belajar <span> Membuat Website</span> </h2>
+      <h1> Kontak Sekolah Koding </h1>
+      <h2> Hubungi tim sekolah koding </h2>
     </div>
 
 
+
     <!--membuat form -->
-    <form>
+    <form id="clear">
       <fieldset>
         <label for="nama_user">Nama</label>
         <input type="text" placeholder="Nama User" value="Nama Anda" id="nama_user">
-        <br>
+        <br/>
         <label for="pesan_user">Pesan</label>
         <textarea cols="100" rows="7" id="pesan_user"> Pesan Saya Adalah....</textarea>
-        <br>
+        <br/>
         </fieldset>
         <fieldset>
-        <label>Hobi </label> <br>
+        <label>Hobi </label> <br/>
         <input type="checkbox" name="hobi_user" value="0">Menggambar
         <input type="checkbox" name="hobi_user" value="1" checked>Menulis
         <input type="checkbox" name="hobi_user" value="2">Menyanyi
-        <br>
-        <label>Jenis Kelamin </label> <br>
+        <br/>
+        <label>Jenis Kelamin </label> <br/>
         <input type="radio" name="gender" value="0" checked>Laki-laki
         <input type="radio" name="gender" value="1">Perempuan
-        <br>
+        <br/>
         <label>Pelajaran</label>
         <select>
         <optgroup label="Frontend">
@@ -55,9 +62,9 @@
         </select>
       </fieldset>
 
-      <br>
+      <br />
       <input type="submit" value="Kirim Data">
-      <br>
+      <br />
   </form>
 
 

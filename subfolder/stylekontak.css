@@ -1,0 +1,22 @@
+h1, h2 {
+    color : grey;
+}
+
+div a {
+    background:  yellow;
+}
+
+/* langsung di bawah parentnya atau pembungkus */
+div >a {
+    background: red;
+}
+
+/* seletah elemen */
+div+div+div {
+    background: aqua;
+}
+
+p {
+    text-align:center;
+    color: blueviolet;
+}

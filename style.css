@@ -115,6 +115,35 @@ ul, ol, dl {
   text-align: center;
 }
 
+/* HALAMAN KONTAK */
+ h1,h2 {
+   color:grey;
+   margin:10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Mengatur Posisi di css */
 /* 1. static | 2. Relative | 3. Absolute=>
 elemen dianggap hilang, sehingga elemen akan menempATI CLASS ATAU ID terkait | 4. fixed */
