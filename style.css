@@ -29,7 +29,7 @@ h2 {
   text-transform: uppercase;
   display: inline;
   position: fixed;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 body {
@@ -91,8 +91,22 @@ body {
 /* 1. static | 2. Relative | 3. Absolute=>
 elemen dianggap hilang, sehingga elemen akan menempATI CLASS ATAU ID terkait | 4. fixed */
 
-#menu_member {
+/* #menu_member {
   position: relative;
   top: 50px;
   left: 20px;
+} */
+
+#id_h1_member {
+  background: rgb(49, 3, 252);
+  position: absolute;
+  top: 40px;
+  left:20px;
+}
+
+#id_h2_member {
+  background: yellow;
+  position: fixed;
+  top: 100px;
+  left:20px;
 }
